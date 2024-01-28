@@ -1,0 +1,11 @@
+  {
+    "composer": {
+      "composerProfile": {
+        "img": "./Images/Composers/SamuelBarber.png",
+        "name": "Samuel Barber",
+        "music": "Adagio for Strings",
+        "description": "Adagio for Strings begins softly with a B♭ played by the first violins. The lower strings come in two beats after the violins, which, as Johanna Keller from The New York Times put it, creates an uneasy, shifting suspension as the melody begins a stepwise motion, like the hesitant climbing of stairs.",
+        "duration": "8:00"
+      }
+    }
+  }

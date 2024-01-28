@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/dark-mode.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="icon" href="./Images/Favicon/favicon.svg" />
+    <title>myMusical</title>
+</head>
+
+<body>
+    <!-- Top Navigator Section Starts -->
+    <header>
+        <div class="topNavigator">
+            <div class="container">
+                <div class="row">
+                    <!-- Hamburger Menu Starts -->
+                    <div class="sideMenu" onclick="openNav(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <!-- Hamburger Menu Ends -->
+                    <input type="text" id="magic" class="searchInput " placeholder="Search Music" />
+                    <div class="languageButton">
+                        <p class="language">English</p>
+                    </div>
+                    <div class="resumeButton">
+                        <p class="resume">Downloads</p>
+                    </div>
+                    <div class="dark-lightMode" id="toggleDark">
+                        <img class="moonIcon" src="./Icons/icon _moon_.svg" alt="Dark/Light Mode" />
+                        <img class="moonIconblue" src="./Icons/icon _moon_blue.svg" alt="Dark/Light Mode" />
+                    </div>
+                    <div class="contactButton">
+                        <button class="contactUs">Listen now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Top Navigator Section Ends -->
+
+    <!-- Side Navigator Section Starts -->
+    <navigator>
+        <div class="sideNavigator">
+            <div class="profileImage">
+                <img class="profileIcon" src="./Images/Logo/Logo.svg" alt="User Profile Image" />
+            </div>
+            <div class="fourSection">
+                <div class="rectangle1">Listening</div>
+                <div class="rectangle2">Recently Added</div>
+                <div class="rectangle3">Browse</div>
+                <div class="rectangle4">Songs</div>
+                <div class="rectangle5">Albums</div>
+                <div class="rectangle6">Composers</div>
+                <div class="rectangle7">Genres</div>
+                <div class="rectangle8">Favorite</div>
+            </div>
+            <!-- <div class="twoSection">
+                <div class="rectangle6">Composers</div>
+                <div class="rectangle7">Genres</div>
+            </div> -->
+            <div class="footerText">
+                <p class="link"><a href="/privacy-policy">Privacy Policy</a></p>
+                <p class="link"><a href="/open-source-credits">Open Source Credits</a></p>
+                <p class="copyright">&copy; All rights reserved</p>
+            </div>
+        </div>
+    </navigator>
+    <!-- Side Navigator Section Ends -->
+    <!-- Home Menu Section Starts -->
+    <home>
+        <div class="Homes" style="display: flex;">
+            <div class="sideTransparent"></div>
+            <div class="homeSection">
+                <!-- Home Section Starts -->
+                <div class="composerData">
+                    <div class="composers">
+                        <img src="./Images/Composers/SamuelBarber.png" alt="">
+                        <h1>Samuel Barber</h1>
+                        <p>1910 - 1981</p>
+                        <p>Adagio for Strings</p>
+                        <p>written in 1936</p>
+                        <p>features a poignant arrangement for first violins, second violins, violas, cellos, and double basses.</p>
+                        <p>Adagio for Strings creates an uneasy, shifting suspension as the melody begins a stepwise motion, like the hesitant climbing of stairs.</p>
+                    </div>
+
+                </div>
+
+                <!-- Home Section Ends -->
+            </div>
+        </div>
+
+    </home>
+    <!-- Home Menu Section Ends -->
+
+
+
+
+
+
+
+
+    <script src="./js/dark-mode.js"></script>
+    <script src="./js/composers-data.js"></script>
+    <script>
+        function openNav(x) {
+            x.classList.toggle("change");
+            let sideNavigator = document.querySelector('.sideNavigator');
+            sideNavigator.style.display = (sideNavigator.style.display === 'flex') ? 'none' : 'flex';
+        }
+    </script>
+</body>
+
+</html>
