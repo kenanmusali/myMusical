@@ -5,8 +5,17 @@
         flex-direction: column;
         align-items: center;
         /* margin-top: -32%; */
-        height: 100%;
+        height: fit-content !important;
         margin-top: 0;
+    }
+
+    .topTransparent {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        visibility: hidden;
+        z-index: 9;
+        margin-top: 2px;
     }
 
     /* .sectionClass1,
@@ -23,26 +32,29 @@
 
     }
 
-    .sectionClass2,
-    .sectionClass3 {
-        display: none;
-    }
-
     .sectionClass1 {
         order: 1;
+        flex: 1;
     }
 
     .sectionClass2 {
         order: 2;
+        flex: 1;
     }
 
     .sectionClass3 {
         order: 3;
+        flex: 1;
     }
 
     .sectionClass4 {
         order: 0;
+        flex: 1;
         /* Set the order of top4 to 0 to make it appear first */
+    }
+
+    .playMusicName {
+        margin-top: 5%;
     }
 
     .composerImg {
@@ -51,11 +63,51 @@
 
     .div-NameYear {
         margin-left: 4px;
+        height: 30%;
+        padding: 30px 20px;
+    }
+
+    .sectionClass4 {
+        /* margin-top: 10%; */
+        padding: 20px;
+        margin-top: -8px;
     }
 
     .sectionClass1 {
         margin-top: 8px;
         width: 95%;
+    }
+
+    .composerName {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+
+    .composerYear {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .sectionClass2 {
+        margin-top: 3vw;
+        width: 95%;
+        margin-right: 18px;
+        height: 40vw;
+        margin-bottom: 8px;
+    }
+
+    .sectionClass3 {
+        width: 95%;
+        margin-left: 3.5px;
+        
+    }
+
+    .div-chordInfo {
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        padding: 14px 30px 24px 20px !important; 
+
     }
 
 }

@@ -198,7 +198,7 @@
 }
 
 /* Desktop Size-Responsive Starts */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
 
   .container {
     margin: 0 auto;
