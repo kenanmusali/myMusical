@@ -6,6 +6,7 @@
         align-items: center;
         /* margin-top: -32%; */
         height: fit-content !important;
+        width: 95%;
         margin-top: 0;
     }
 
@@ -27,7 +28,7 @@
 
     .sectionClass4 {
         /* margin-top: 40px; */
-        width: 95%;
+        width: 100%;
         height: 40%;
 
     }
@@ -53,6 +54,7 @@
         /* Set the order of top4 to 0 to make it appear first */
     }
 
+
     .playMusicName {
         margin-top: 5%;
     }
@@ -70,12 +72,12 @@
     .sectionClass4 {
         /* margin-top: 10%; */
         padding: 20px;
-        margin-top: -8px;
+        margin-top: -9px;
     }
 
     .sectionClass1 {
         margin-top: 8px;
-        width: 95%;
+        width: 100%;
     }
 
     .composerName {
@@ -90,14 +92,14 @@
 
     .sectionClass2 {
         margin-top: 3vw;
-        width: 95%;
+        width: 100%;
         margin-right: 18px;
         height: 40vw;
         margin-bottom: 8px;
     }
 
     .sectionClass3 {
-        width: 95%;
+        width: 100%;
         margin-left: 3.5px;
         
     }

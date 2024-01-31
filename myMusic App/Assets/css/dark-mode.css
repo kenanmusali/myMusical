@@ -9,7 +9,8 @@ body.dark1 {
 
 /* Top Navigator Section Starts */
 .topNavigator.dark2 {
-    background: #0f0f0f;
+    background: rgba(29, 29, 29, 0.3);
+backdrop-filter: blur(10px);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
