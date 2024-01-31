@@ -1,0 +1,1202 @@
+/* Smartphone Size-Responsive Starts */
+@media screen and (max-width: 767px) {
+    .composerData {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-top: -32%; */
+        height: 100%;
+        margin-top: 0;
+    }
+
+    /* .sectionClass1,
+    .sectionClass2,
+    .sectionClass3,
+    .sectionClass4 {
+
+    } */
+
+    .sectionClass4 {
+        /* margin-top: 40px; */
+        width: 95%;
+        height: 40%;
+
+    }
+
+    .sectionClass2,
+    .sectionClass3 {
+        display: none;
+    }
+
+    .sectionClass1 {
+        order: 1;
+    }
+
+    .sectionClass2 {
+        order: 2;
+    }
+
+    .sectionClass3 {
+        order: 3;
+    }
+
+    .sectionClass4 {
+        order: 0;
+        /* Set the order of top4 to 0 to make it appear first */
+    }
+
+    .composerImg {
+        margin-left: 3.5px;
+    }
+
+    .div-NameYear {
+        margin-left: 4px;
+    }
+
+    .sectionClass1 {
+        margin-top: 8px;
+        width: 95%;
+    }
+
+}
+
+/* Tablet Size-Responsive Starts */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Homes {
+        margin-top: 8%;
+    }
+
+    .sectionClass1 {
+        display: none;
+    }
+
+    .div-NameYearResponsive {
+        display: block;
+    }
+
+    .composerName {
+        margin-bottom: 8px;
+    }
+
+    .musicName {
+        font-size: 14px !important;
+    }
+
+    .sectionClass2 {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        gap: 8px;
+        height: 35%;
+        margin-right: 8px;
+        margin-left: 0px !important;
+    }
+
+    .sectionClass4 {
+        background: #EBEBEB;
+        border-radius: 12px;
+        height: 35%;
+        width: 45%;
+        display: flex;
+        align-items: center;
+    }
+
+    .sectionClass3 {
+        height: 35%;
+    }
+
+    .div-DescriptionInfo,
+    .div-chordInfo,
+    .div-CompositionsInfo {
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        padding: 14px 20px 24px 20px !important;
+    }
+
+    .div-PlayButtons {
+        display: flex;
+        justify-content: center;
+        gap: 20%;
+        padding: 0px 10px;
+        /* width: 100%; */
+        /* height: 24px; */
+    }
+
+
+
+}
+
+/* Desktop Size-Responsive Starts */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .Homes {
+        margin-top: 6%;
+    }
+
+    .sectionClass1 {
+        display: none;
+    }
+
+    .composerName {
+        margin-bottom: 8px;
+    }
+
+    .div-NameYearResponsive {
+        display: block;
+    }
+
+    .sectionClass2 {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        gap: 8px;
+        height: 35%;
+        margin-right: 8px;
+    }
+
+    .sectionClass4 {
+        background: #EBEBEB;
+        border-radius: 12px;
+        height: 35%;
+        width: 45%;
+        display: flex;
+        align-items: center;
+    }
+
+    .sectionClass3 {
+        height: 35%;
+    }
+
+    .div-DescriptionInfo,
+    .div-chordInfo {
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+    }
+
+    .div-PlayButtons {
+        display: flex;
+        justify-content: center;
+        gap: 20%;
+        padding: 0px 10px;
+        /* width: 100%; */
+        /* height: 24px; */
+    }
+}
+
+@media screen and (min-width: 1199px) and (max-width: 1599px) {
+
+    .composerData {
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* Section-Class (1) starts here */
+    .sectionClass1 {
+        display: flex;
+        flex-direction: column;
+        height: 18vw;
+        width: 16%;
+        gap: 8px;
+        margin-right: 8px;
+    }
+
+
+    .composerName {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .div-NameYear {
+        font-size: 12px;
+    }
+
+    .musicName {
+        font-size: 14px !important;
+    }
+
+    /* Section-Class (1) Ends here */
+
+    /* Section-Class (2) Starts here */
+    .sectionClass2 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        gap: 8px;
+        height: 18vw;
+        margin-right: 8px;
+    }
+
+    .div-DescriptionInfo {
+        font-size: 12px;
+        padding: 14px 30px 14px 20px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+    }
+
+    .descriptionTitle,
+    .chordTitle,
+    .compositionsTitle {
+        font-size: 14px !important;
+    }
+
+    .descriptionText,
+    .chordText,
+    .compositionsText {
+        font-size: 12px !important;
+    }
+
+    .div-chordInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        padding: 14px 30px 24px 20px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+    }
+
+    .musicYear {
+        color: #707070;
+        font-size: 11px;
+    }
+
+    .musicName {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    /* Section-Class (2) Ends here */
+
+    /* Section-Class (3) Starts here */
+    .sectionClass3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        gap: 8px;
+        height: 18vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        background: #EBEBEB;
+        border-radius: 12px;
+        margin-right: 8px;
+    }
+
+    .gradientTransparentSquare {
+        border-radius: 0px 0px 12px 12px;
+        background: linear-gradient(180deg, rgba(235, 235, 235, 0.00) 0%, #EBEBEB 88.37%);
+        /* background-color: red; */
+        height: 10vw;
+        width: 20vw;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+    }
+
+    .div-CompositionsInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        padding: 14px 30px 14px 20px;
+    }
+
+    .compositionsTitle {
+        position: sticky;
+        top: 0;
+        background: #EBEBEB;
+        z-index: 1;
+        margin-bottom: 20px;
+        color: #707070;
+        font-weight: 600;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    /* Section-Class (3) Ends here */
+
+    /* Section-Class (4) Starts here */
+    .sectionClass4 {
+        background: #EBEBEB;
+        border-radius: 12px;
+        height: 18vw;
+        width: 35%;
+        display: flex;
+        align-items: center;
+    }
+
+    .Class4Item {
+        display: block;
+        width: 100%;
+    }
+
+    .div-PlayInfo {
+        margin-bottom: 5%;
+    }
+
+    .musicBar {
+        height: 8px;
+        width: 85%;
+        background-color: #cecece;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+    }
+
+    .div-TimePlay {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #888888;
+        margin-bottom: 8px;
+    }
+
+
+
+    .playIcon {
+        margin-left: 10px;
+    }
+
+    .div-PlayButtons {
+        display: flex;
+        justify-content: center;
+        gap: 20%;
+        padding: 0px 30px 5px;
+        /* width: 100%; */
+        height: 24px;
+    }
+
+    .playMusicName {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 4%;
+        margin-top: 10%;
+    }
+
+    .playMusicComposer {
+        color: #707070;
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 4%;
+    }
+
+    .div-MusicBar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-PlayButtons {
+        text-align: center;
+    }
+
+    .div-PlayInfo {
+        text-align: center;
+    }
+
+    /* Section-Class (4) Ends here */
+    /* Composers Section Ends */
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1888px) {
+
+    .composerData {
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* Section-Class (1) starts here */
+    .sectionClass1 {
+        display: flex;
+        flex-direction: column;
+        height: 18vw;
+        width: 16%;
+        gap: 8px;
+        margin-right: 8px;
+    }
+
+
+    .composerName {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .div-NameYear {
+        font-size: 12px;
+    }
+
+    /* Section-Class (1) Ends here */
+
+    /* Section-Class (2) Starts here */
+    .sectionClass2 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        gap: 8px;
+        height: 18vw;
+        margin-right: 8px;
+    }
+
+    .div-DescriptionInfo {
+        font-size: 12px;
+        padding: 14px 30px 14px 20px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+    }
+
+    .div-chordInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        padding: 14px 30px 24px 20px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+    }
+
+    .musicYear {
+        color: #707070;
+        font-size: 11px;
+    }
+
+    .musicName {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    /* Section-Class (2) Ends here */
+
+    /* Section-Class (3) Starts here */
+    .sectionClass3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        gap: 8px;
+        height: 18vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        background: #EBEBEB;
+        border-radius: 12px;
+        margin-right: 8px;
+    }
+
+    .gradientTransparentSquare {
+        border-radius: 0px 0px 12px 12px;
+        background: linear-gradient(180deg, rgba(235, 235, 235, 0.00) 0%, #EBEBEB 88.37%);
+        /* background-color: red; */
+        height: 10vw;
+        width: 20vw;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+    }
+
+    .div-CompositionsInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        padding: 14px 30px 14px 20px;
+    }
+
+    .compositionsTitle {
+        position: sticky;
+        top: 0;
+        background: #EBEBEB;
+        z-index: 1;
+        margin-bottom: 20px;
+        color: #707070;
+        font-weight: 600;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    /* Section-Class (3) Ends here */
+
+    /* Section-Class (4) Starts here */
+    .sectionClass4 {
+        background: #EBEBEB;
+        border-radius: 12px;
+        height: 18vw;
+        width: 35%;
+        display: flex;
+        align-items: center;
+    }
+
+    .Class4Item {
+        display: block;
+        width: 100%;
+    }
+
+    .div-PlayInfo {
+        margin-bottom: 5%;
+    }
+
+    .musicBar {
+        height: 8px;
+        width: 85%;
+        background-color: #cecece;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+    }
+
+    .div-TimePlay {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #888888;
+        margin-bottom: 8px;
+    }
+
+
+
+    .playIcon {
+        margin-left: 10px;
+    }
+
+    .div-PlayButtons {
+        display: flex;
+        justify-content: center;
+        gap: 20%;
+        padding: 0px 30px;
+        /* width: 100%; */
+        height: 28px;
+    }
+
+    .playMusicName {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 4%;
+        margin-top: 10%;
+    }
+
+    .playMusicComposer {
+        color: #707070;
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 4%;
+    }
+
+    .div-MusicBar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-PlayButtons {
+        text-align: center;
+    }
+
+    .div-PlayInfo {
+        text-align: center;
+    }
+
+    /* Section-Class (4) Ends here */
+    /* Composers Section Ends */
+}
+
+@media screen and (max-width: 1118px) {
+    .sectionClass2 {
+        margin-left: 4%;
+    }
+
+}
+
+@media screen and (min-width: 1461px) and (max-width: 1887px) {
+
+    .composerData {
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* Section-Class (1) starts here */
+    .sectionClass1 {
+        display: flex;
+        flex-direction: column;
+        height: 18vw;
+        width: 16%;
+        gap: 8px;
+        margin-right: 8px;
+    }
+
+    img.composerImg {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 12px;
+        border: 2px solid #EBEBEB;
+    }
+
+    .div-NameYear {
+        border-radius: 12px;
+        background: #EBEBEB;
+        height: 100%;
+        width: 100%;
+        padding: 6%;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+
+    .composerImg {
+        border-radius: 12px;
+        border: 2px solid #EBEBEB;
+    }
+
+    .composerName {
+        font-size: 12px;
+    }
+
+    .composerYear {
+        color: #707070;
+        font-size: 500;
+    }
+
+    /* Section-Class (1) Ends here */
+
+    /* Section-Class (2) Starts here */
+    .sectionClass2 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        gap: 8px;
+        height: 18vw;
+        margin-right: 8px;
+    }
+
+    .div-MusicInfo {
+        display: flex;
+        align-items: center;
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        padding: 14px 20px;
+        justify-content: space-between;
+    }
+
+    .div-DescriptionInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        padding: 14px 88px 14px 20px;
+        /* overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none; */
+    }
+
+    .descriptionTitle {
+        color: #707070;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .div-chordInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        padding: 14px 90px 24px 20px;
+        /* overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none; */
+    }
+
+    .chordTitle {
+        color: #707070;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .musicYear {
+        color: #707070;
+        font-size: 14px;
+    }
+
+    .musicName {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    /* Section-Class (2) Ends here */
+
+    /* Section-Class (3) Starts here */
+    .sectionClass3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        gap: 8px;
+        height: 18vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        background: #EBEBEB;
+        border-radius: 12px;
+        margin-right: 8px;
+    }
+
+    .gradientTransparentSquare {
+        border-radius: 0px 0px 12px 12px;
+        background: linear-gradient(180deg, rgba(235, 235, 235, 0.00) 0%, #EBEBEB 88.37%);
+        /* background-color: red; */
+        height: 10vw;
+        width: 20vw;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+    }
+
+    .div-CompositionsInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        padding: 14px 90px 24px 20px;
+    }
+
+    .compositionsTitle {
+        position: sticky;
+        top: 0;
+        background: #EBEBEB;
+        z-index: 1;
+        margin-bottom: 20px;
+        color: #707070;
+        font-weight: 600;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    /* Section-Class (3) Ends here */
+
+    /* Section-Class (4) Starts here */
+    .sectionClass4 {
+        background: #EBEBEB;
+        border-radius: 12px;
+        height: 18vw;
+        width: 35%;
+        display: flex;
+        align-items: center;
+    }
+
+    .Class4Item {
+        display: block;
+        width: 100%;
+    }
+
+    .div-PlayInfo {
+        margin-bottom: 5%;
+    }
+
+    .musicBar {
+        height: 10px;
+        width: 85%;
+        background-color: #cecece;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+    }
+
+    .div-TimePlay {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 60px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #888888;
+        margin-bottom: 8px;
+    }
+
+    .div-MusicBar {
+        margin-bottom: 6%;
+    }
+
+    .playIcon {
+        margin-left: 10px;
+    }
+
+    .div-PlayButtons {
+        display: flex;
+        justify-content: center;
+        gap: 20%;
+    }
+
+    .playMusicName {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 4%;
+    }
+
+    .playMusicComposer {
+        color: #707070;
+        font-weight: 500;
+    }
+
+    .div-MusicBar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-PlayButtons {
+        text-align: center;
+    }
+
+    .div-PlayInfo {
+        text-align: center;
+    }
+
+    /* Section-Class (4) Ends here */
+    /* Composers Section Ends */
+}
+
+@media screen and (min-width: 1888px) {
+
+    .composerData {
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* Section-Class (1) starts here */
+    .sectionClass1 {
+        display: flex;
+        flex-direction: column;
+        height: 18vw;
+        width: 16%;
+        gap: 8px;
+        margin-right: 8px;
+    }
+
+    img.composerImg {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 12px;
+        border: 2px solid #EBEBEB;
+    }
+
+    .div-NameYear {
+        border-radius: 12px;
+        background: #EBEBEB;
+        height: 100%;
+        width: 100%;
+        padding: 6%;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+
+    .composerImg {
+        border-radius: 12px;
+        border: 2px solid #EBEBEB;
+    }
+
+    .composerYear {
+        color: #707070;
+        font-size: 500;
+    }
+
+    /* Section-Class (1) Ends here */
+
+    /* Section-Class (2) Starts here */
+    .sectionClass2 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        gap: 8px;
+        height: 18vw;
+        margin-right: 8px;
+    }
+
+    .div-MusicInfo {
+        display: flex;
+        align-items: center;
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        padding: 14px 20px;
+        justify-content: space-between;
+    }
+
+    .div-DescriptionInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        padding: 14px 88px 14px 20px;
+        /* overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none; */
+    }
+
+    .descriptionTitle {
+        color: #707070;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .div-chordInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        padding: 14px 90px 24px 20px;
+        /* overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none; */
+    }
+
+    .chordTitle {
+        color: #707070;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .musicYear {
+        color: #707070;
+        font-size: 14px;
+    }
+
+    .musicName {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    /* Section-Class (2) Ends here */
+
+    /* Section-Class (3) Starts here */
+    .sectionClass3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        gap: 8px;
+        height: 18vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        background: #EBEBEB;
+        border-radius: 12px;
+        margin-right: 8px;
+    }
+
+    .gradientTransparentSquare {
+        border-radius: 0px 0px 12px 12px;
+        background: linear-gradient(180deg, rgba(235, 235, 235, 0.00) 0%, #EBEBEB 88.37%);
+        /* background-color: red; */
+        height: 10vw;
+        width: 20vw;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+    }
+
+    .div-CompositionsInfo {
+        border-radius: 12px;
+        background: #EBEBEB;
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        padding: 14px 90px 24px 20px;
+    }
+
+    .compositionsTitle {
+        position: sticky;
+        top: 0;
+        background: #EBEBEB;
+        z-index: 1;
+        margin-bottom: 20px;
+        color: #707070;
+        font-weight: 600;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    /* Section-Class (3) Ends here */
+
+    /* Section-Class (4) Starts here */
+    .sectionClass4 {
+        background: #EBEBEB;
+        border-radius: 12px;
+        height: 18vw;
+        width: 35%;
+        display: flex;
+        align-items: center;
+    }
+
+    .Class4Item {
+        display: block;
+        width: 100%;
+    }
+
+    .div-PlayInfo {
+        margin-bottom: 5%;
+    }
+
+    .musicBar {
+        height: 10px;
+        width: 85%;
+        background-color: #cecece;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+    }
+
+    .div-TimePlay {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 60px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #888888;
+        margin-bottom: 8px;
+    }
+
+    .div-MusicBar {
+        margin-bottom: 6%;
+    }
+
+    .playMusicName {
+        margin-top: 7%;
+    }
+
+    .playMusicComposer {
+        margin-bottom: 8%;
+    }
+
+    .playIcon {
+        margin-left: 10px;
+    }
+
+    .div-PlayButtons {
+        display: flex;
+        justify-content: center;
+        gap: 20%;
+    }
+
+    .playMusicName {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 4%;
+    }
+
+    .playMusicComposer {
+        color: #707070;
+        font-weight: 500;
+    }
+
+    .div-MusicBar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-PlayButtons {
+        text-align: center;
+    }
+
+    .div-PlayInfo {
+        text-align: center;
+    }
+
+    /* Section-Class (4) Ends here */
+    /* Composers Section Ends */
+}
+
+@media screen and (min-width: 2000px) {
+
+    .descriptionTitle,
+    .chordTitle,
+    .compositionsTitle {
+        font-size: 16px;
+    }
+
+    .descriptionText,
+    .chordText {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+
+    .descriptionTitle,
+    .chordTitle,
+    .compositionsTitle {
+        font-size: 18px;
+    }
+
+    .descriptionText,
+    .chordText {
+        font-size: 16px;
+    }
+}

@@ -33,7 +33,7 @@ body {
   height: 50px;
   background: #eaeaea;
   align-items: center;
-
+z-index: 3;
   justify-content: space-around;
 }
 
@@ -178,6 +178,7 @@ body {
   z-index: 2;
   display: flex;
   align-items: center;
+  z-index: 4;
 }
 
 /* Profile Menu Section Starts */
@@ -276,7 +277,8 @@ body {
 .Homes {
   height: 100%;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  margin-top: 5%;
 }
 
 .sideTransparent {
@@ -293,8 +295,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  height: fit-content;
+  /* background-color: #FE013A; */
   width: 100%;
 }
 
@@ -315,7 +316,7 @@ img.composerImg {
   border: 2px solid #EBEBEB;
 }
 
-.div-NameYear {
+.div-NameYear, .div-NameYearResponsive {
   border-radius: 12px;
   background: #EBEBEB;
   height: 100%;
@@ -340,6 +341,7 @@ img.composerImg {
   color: #707070;
   font-size: 500;
 }
+
 /* Section-Class (1) Ends here */
 
 /* Section-Class (2) Starts here */
@@ -352,13 +354,16 @@ img.composerImg {
   margin-right: 8px;
 }
 
+.div-NameYearResponsive {
+  display: none;
+}
+
 .div-MusicInfo {
   display: flex;
   align-items: center;
   border-radius: 12px;
   background: #EBEBEB;
   width: 100%;
-  height: 100%;
   padding: 14px 20px;
   justify-content: space-between;
 }
@@ -370,6 +375,9 @@ img.composerImg {
   height: 100%;
   font-size: 14px;
   padding: 14px 88px 14px 20px;
+    /* overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none; */
 }
 
 .descriptionTitle {
@@ -385,6 +393,9 @@ img.composerImg {
   height: 100%;
   font-size: 14px;
   padding: 14px 90px 24px 20px;
+  /* overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none; */
 }
 
 .chordTitle {
@@ -402,6 +413,7 @@ img.composerImg {
   font-weight: 600;
   font-size: 20px;
 }
+
 /* Section-Class (2) Ends here */
 
 /* Section-Class (3) Starts here */
@@ -422,7 +434,7 @@ img.composerImg {
 
 .gradientTransparentSquare {
   border-radius: 0px 0px 12px 12px;
-background: linear-gradient(180deg, rgba(235, 235, 235, 0.00) 0%, #EBEBEB 88.37%);
+  background: linear-gradient(180deg, rgba(235, 235, 235, 0.00) 0%, #EBEBEB 88.37%);
   /* background-color: red; */
   height: 10vw;
   width: 20vw;
@@ -513,7 +525,7 @@ li {
 .div-PlayButtons {
   display: flex;
   justify-content: center;
-  gap: 30%;
+  gap: 20%;
 }
 
 .playMusicName {

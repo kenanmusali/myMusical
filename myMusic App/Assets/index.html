@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/responsive.css" />
   <link rel="stylesheet" href="./css/dark-mode.css" />
   <link rel="stylesheet" href="./css/animation.css" />
+  <link rel="stylesheet" href="./css/home-responsive.css" />
   <link rel="icon" href="./Images/Favicon/favicon.svg" />
   <title>myMusical</title>
 </head>
@@ -74,7 +75,7 @@
   <!-- Side Navigator Section Ends -->
   <!-- Home Menu Section Starts -->
   <home>
-    <div class="Homes" style="display: flex">
+    <div class="Homes" id="blur" style="display: flex">
       <div class="sideTransparent"></div>
 
       <!-- Home Section Starts -->
@@ -93,9 +94,13 @@
 
         <!-- Section-Class (2) Starts here -->
         <div class="sectionClass2">
+          <div class="div-NameYearResponsive">
+            <h1 class="composerName">Samuel Barber</h1>
+            <p class="composerYear">1910 - 1981</p>
+          </div>
           <div class="div-MusicInfo">
             <p class="musicName">Adagio for Strings</p>
-            <p class="musicYear">written in 1936</p>
+            <p class="musicYear">1936</p>
           </div>
 
           <div class="div-DescriptionInfo">
@@ -205,22 +210,32 @@
           </div>
         </div>
         <!-- Section-Class (4) Ends here -->
-
       </div>
       <!-- Home Section Ends -->
     </div>
   </home>
   <!-- Home Menu Section Ends -->
 
+  <!-- JS Starts Here -->
   <script src="./js/dark-mode.js"></script>
   <script src="./js/composers-data.js"></script>
   <script>
     function openNav(x) {
       x.classList.toggle("change");
       let sideNavigator = document.querySelector(".sideNavigator");
-      sideNavigator.style.display =
-        sideNavigator.style.display === "flex" ? "none" : "flex";
+      sideNavigator.style.display = sideNavigator.style.display === "flex" ? "none" : "flex";
+      let blurElement = document.getElementById("blur");
+      if (blurElement) {
+        blurElement.classList.toggle("blur");
+      }
     }
+    let style = document.createElement("style");
+    style.innerHTML = `
+    .blur {
+        filter: blur(2.5px); 
+    }
+`;
+    document.head.appendChild(style);
   </script>
 </body>
 

@@ -125,7 +125,7 @@
 }
 
 /* Tablet Size-Responsive Starts */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
   .container {
     margin: 0 auto;
@@ -193,8 +193,8 @@
     margin-top: 4px;
     margin-left: 14px;
   }
-
   /* Hamburger Menu Ends */
+
 }
 
 /* Desktop Size-Responsive Starts */
@@ -227,7 +227,6 @@
   /* Side Section Starts */
   .sideNavigator, .sideTransparent {
     display: flex !important;
-
   }
 
   .profileIcon {
