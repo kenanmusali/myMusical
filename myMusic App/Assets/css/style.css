@@ -224,8 +224,8 @@ body {
 .rectangle3,
 .rectangle4,
 .rectangle5 {
-  background-color: rgba(255, 255, 255, 0.7);
-backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(10px);
 
   color: #131313;
   font-style: normal;
@@ -243,7 +243,7 @@ backdrop-filter: blur(5px);
 .rectangle6,
 .rectangle7,
 .rectangle8 {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
 backdrop-filter: blur(5px);
   color: #131313;
   font-style: normal;
