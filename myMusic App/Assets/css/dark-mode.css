@@ -9,8 +9,8 @@ body.dark1 {
 
 /* Top Navigator Section Starts */
 .topNavigator.dark2 {
-    background: rgba(28, 28, 28, 0.3);
-backdrop-filter: blur(10px);
+    background: rgba(49, 49, 49, 0.3);
+    backdrop-filter: blur(10px);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -37,8 +37,9 @@ backdrop-filter: blur(10px);
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
-    
+
 }
+
 /* Search Section Ends */
 
 /* Languange & Resume Section Starts */
@@ -88,19 +89,20 @@ backdrop-filter: blur(10px);
 .contactUs {
     color: white;
     border: 1.5px solid #FF0537;
-    background: linear-gradient(180deg, #FF4704 0%, #FE013A 100%); 
+    background: linear-gradient(180deg, #FF4704 0%, #FE013A 100%);
 }
 
 .contactUs:hover {
     border: 1.5px solid #FF0537;
-    background: linear-gradient(180deg, #FF4704 0%, #FE013A 100%);  
+    background: linear-gradient(180deg, #FF4704 0%, #FE013A 100%);
 }
+
 /* Contact Menu Section Ends */
 /* Top Navigator Section Ends */
 
 /* Side Navigator Section Starts */
 .sideNavigator.dark9 {
-    background: #0f0f0f;
+    background: #161616;
     transition: 0.4s;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
@@ -218,7 +220,8 @@ backdrop-filter: blur(10px);
 /* Footer Section Starts */
 .copyright.dark12 {
     color: #e7e7e7;
-  }
+}
+
 /* Footer Section Ends */
 
 .rectangle1:hover,
@@ -229,7 +232,7 @@ backdrop-filter: blur(10px);
 .rectangle6:hover,
 .rectangle7:hover,
 .rectangle8:hover {
-    background: linear-gradient(180deg, #FF4704 0%, #FE013A 100%);  
+    background: linear-gradient(180deg, #FF4704 0%, #FE013A 100%);
     color: white;
 
 }
@@ -261,13 +264,13 @@ backdrop-filter: blur(10px);
 .homeSection.dark13 {
     color: white;
     font-weight: 500;
-  }
-  
-  h1.dark15 {
+}
+
+h1.dark14 {
     color: white;
     font-weight: 400;
-  }
-  
-  .primaryText.dark16 {
+}
+
+.primaryText.dark15 {
     color: white;
-  }
+}

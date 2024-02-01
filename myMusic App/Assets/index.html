@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
   <link rel="stylesheet" href="./css/dark-mode.css" />
-  <!-- <link rel="stylesheet" href="./css/animation.css" /> -->
+  <link rel="stylesheet" href="./css/home-dark-mode.css" />
   <link rel="stylesheet" href="./css/home-responsive.css" />
   <link rel="icon" href="./Images/Favicon/favicon.svg" />
   <title>myMusical</title>
@@ -91,22 +91,12 @@
   <script src="./js/composers-data.js"></script>
   <script src="./js/music.js"></script>
   <script>
-    function openNav(x) {
-      x.classList.toggle("change");
-      let sideNavigator = document.querySelector(".sideNavigator");
-      sideNavigator.style.display = sideNavigator.style.display === "flex" ? "none" : "flex";
-      let blurElement = document.getElementById("blur");
-      if (blurElement) {
-        blurElement.classList.toggle("blur");
+         function openNav(x) {
+        x.classList.toggle("change");
+        let sideNavigator = document.querySelector(".sideNavigator");
+        sideNavigator.style.display =
+          sideNavigator.style.display === "flex" ? "none" : "flex";
       }
-    }
-    let style = document.createElement("style");
-    style.innerHTML = `
-    .blur {
-        filter: blur(2.5px); 
-    }
-`;
-    document.head.appendChild(style);
   </script>
 </body>
 

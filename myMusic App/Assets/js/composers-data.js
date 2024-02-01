@@ -114,7 +114,6 @@ for (let i = 0; i < MusicData["SamuelBarber"].length; i++) {
         <li>Sonata, Op. 26: I. Allegro energico</li>
         </ul>
       </div>
-      <div class="gradientTransparentSquare"></div>
   </div>
   
 

@@ -1,0 +1,111 @@
+  /* Section-Class (1) Starts here */
+  .composerName.dark16 {
+      color: #cecece;
+      font-weight: 600 ;
+  }
+
+  .div-NameYear.dark17 {
+    background: #161616;
+  }
+
+  .composerImg.dark18 {
+      border: 2px solid #161616;
+  }
+
+  .composerYear.dark19 {
+      color: #888888;
+      font-size: 400;
+  }
+
+  /* Section-Class (1) Ends here */
+
+  /* Section-Class (2) Starts here */
+
+  .div-MusicInfo.dark20 {
+      background: #161616;
+  }
+
+  .div-DescriptionInfo.dark21 {
+      background: #161616;
+      color: #cecece;
+      font-weight: 300;
+  }
+
+  .descriptionTitle.dark22 {
+      color: #888888;
+      font-weight: 500;
+  }
+
+  .div-chordInfo.dark23 {
+      background: #161616;
+      color: #cecece;
+      font-weight: 300;
+  }
+
+  .chordTitle.dark24 {
+      color: #888888;
+      font-weight: 500;
+  }
+
+  .musicYear.dark25 {
+      color: #888888;
+  }
+
+  .musicName.dark26 {
+      font-weight: 500;
+      color: #cecece;
+  }
+
+  /* Section-Class (2) Ends here */
+
+  /* Section-Class (3) Starts here */
+  .sectionClass3.dark27 {
+      background: #161616;
+  }
+
+  .div-CompositionsInfo.dark29 {
+      background: #161616;
+  }
+
+  .compositionsTitle.dark30 {
+      background: #161616;
+      color: #888888;
+      font-weight: 500;
+  }
+
+
+  .compositionsList.dark31 {
+      font-weight: 400;
+      color: #cecece;
+  }
+
+  /* Section-Class (3) Ends here */
+
+  /* Section-Class (4) Starts here */
+  .sectionClass4.dark32 {
+      background: #161616;
+  }
+
+  .musicBar.dark33 {
+      background-color: #303030;
+  }
+
+  .div-TimePlay.dark34 {
+      font-weight: 500;
+      color: #888888;
+  }
+
+  .playIcon.dark35 {
+      margin-left: 10px;
+  }
+
+  .playMusicName.dark36 {
+      font-weight: 500;
+      color: #cecece;
+  }
+
+  .playMusicComposer.dark37 {
+      color: #888888;
+      font-weight: 500;
+  }
+    /* Section-Class (4) Ends here */
