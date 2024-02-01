@@ -11,7 +11,7 @@ let MusicData = {
       "compositions": "features a poignant arrangement for first violins, second violins, violas, cellos, and double basses.",
       "playMusicName": "Adagio for Strings",
       "playMusicComposer": "Samuel Barber",
-      "songs": "./Songs/Samuel Barber/x2mate.com - Samuel Barber - Adagio for Strings (320 kbps).mp3",
+      "song01": "./Songs/Samuel Barber - Adagio for Strings.mp3",
     }
   ],
 };
@@ -150,17 +150,6 @@ for (let i = 0; i < MusicData["SamuelBarber"].length; i++) {
 
   `
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
