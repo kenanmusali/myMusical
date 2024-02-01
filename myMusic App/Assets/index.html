@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
   <link rel="stylesheet" href="./css/dark-mode.css" />
-  <link rel="stylesheet" href="./css/animation.css" />
+  <!-- <link rel="stylesheet" href="./css/animation.css" /> -->
   <link rel="stylesheet" href="./css/home-responsive.css" />
   <link rel="icon" href="./Images/Favicon/favicon.svg" />
   <title>myMusical</title>
@@ -87,8 +87,8 @@
           <img class="composerImg" src="./Images/Composers/SamuelBarber.png" alt="Samuel Barber" />
 
           <div class="div-NameYear">
-            <h1 class="composerName">Samuel Barber</h1>
-            <p class="composerYear">1910 - 1981</p>
+            <h1 class="composerName" id="name">Samuel Barber</h1>
+            <p class="composerYear" id="date">1910 - 1981</p>
           </div>
         </div>
         <!-- Section-Class (1) Ends here -->
@@ -125,7 +125,6 @@
 
         <!-- Section-Class (3) Starts here -->
         <div class="sectionClass3">
-          <div class="gradientTransparentSquare"></div>
           <div class="div-CompositionsInfo">
             <p class="compositionsTitle">Compositions</p>
             <ul class="compositionsList">
@@ -165,24 +164,25 @@
               <li>The Lovers, op. 43: III. In the Hot Depth of This Summer</li>
               <li>Three Songs (The Words from Old England): II. An Earnest Suite to His Unkind Mistress Not to Forsake
                 Him</li>
-              <li>Souvenirs, op. 28: IV. Two-step</li>
-              <li>2 Choruses, op. 8: no. 1. The Virgin Martyrs</li>
-              <li>Mélodies passagères, op. 27: No. 3. Tombeau dans un parc</li>
-              <li>Souvenirs, op. 28: I. Waltz</li>
-              <li>Vanessa, op. 32: Act I. Must the winter come so soon?</li>
-              <li>Summer Music, op. 31: I. Slow and indolent</li>
-              <li>Capricorn Concerto, op. 21: II. Allegretto</li>
-              <li>Vanessa, op. 32: Act II. Under the Willow Tree</li>
-              <li>A Nun Takes the Veil, op. 13 no. 1</li>
-              <li>Medea Ballet Suite, op. 23: VI. Kantikos Agonias</li>
-              <li>Despite and Still, op. 41: No. 2. My Lizard</li>
-              <li>Fresh from West Chester</li>
-              <li>Souvenirs, op. 28: III. Pas de deux</li>
-              <li>Reincarnations: I. Mary Hynes</li>
-              <li>Three Songs (The Words from Old England): III. Hey Nonny No!</li>
-              <li>Sonata, Op. 26: I. Allegro energico</li>
-            </ul>
-          </div>
+                <li>Souvenirs, op. 28: IV. Two-step</li>
+                <li>2 Choruses, op. 8: no. 1. The Virgin Martyrs</li>
+                <li>Mélodies passagères, op. 27: No. 3. Tombeau dans un parc</li>
+                <li>Souvenirs, op. 28: I. Waltz</li>
+                <li>Vanessa, op. 32: Act I. Must the winter come so soon?</li>
+                <li>Summer Music, op. 31: I. Slow and indolent</li>
+                <li>Capricorn Concerto, op. 21: II. Allegretto</li>
+                <li>Vanessa, op. 32: Act II. Under the Willow Tree</li>
+                <li>A Nun Takes the Veil, op. 13 no. 1</li>
+                <li>Medea Ballet Suite, op. 23: VI. Kantikos Agonias</li>
+                <li>Despite and Still, op. 41: No. 2. My Lizard</li>
+                <li>Fresh from West Chester</li>
+                <li>Souvenirs, op. 28: III. Pas de deux</li>
+                <li>Reincarnations: I. Mary Hynes</li>
+                <li>Three Songs (The Words from Old England): III. Hey Nonny No!</li>
+                <li>Sonata, Op. 26: I. Allegro energico</li>
+              </ul>
+            </div>
+            <div class="gradientTransparentSquare"></div>
         </div>
         <!-- Section-Class (3) Ends here -->
 
@@ -203,9 +203,9 @@
                 <p class="musicBar"></p>
               </div>
               <div class="div-PlayButtons">
-                <img class="rewindIcon" src="./Icons/rewind.svg" alt="Rewind">
-                <img class="playIcon" src="./Icons/play.svg" alt="Play">
-                <img class="forwardIcon" src="./Icons/forward.svg" alt="Forward">
+                <img class="rewindIcon" id="rewind" src="./Icons/rewind.svg" alt="Rewind">
+                <img class="playIcon" id="play" src="./Icons/play.svg" alt="Play">
+                <img class="forwardIcon" id="forward" src="./Icons/forward.svg" alt="Forward">
               </div>
             </div>
           </div>
@@ -220,6 +220,7 @@
   <!-- JS Starts Here -->
   <script src="./js/dark-mode.js"></script>
   <script src="./js/composers-data.js"></script>
+  <script src="./js/play-music.js"></script>
   <script>
     function openNav(x) {
       x.classList.toggle("change");

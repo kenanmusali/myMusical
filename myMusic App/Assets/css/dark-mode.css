@@ -9,7 +9,7 @@ body.dark1 {
 
 /* Top Navigator Section Starts */
 .topNavigator.dark2 {
-    background: rgba(29, 29, 29, 0.3);
+    background: rgba(28, 28, 28, 0.3);
 backdrop-filter: blur(10px);
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -27,6 +27,7 @@ backdrop-filter: blur(10px);
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .input::placeholder.dark4 {
@@ -36,6 +37,7 @@ backdrop-filter: blur(10px);
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
+    
 }
 /* Search Section Ends */
 
@@ -48,6 +50,7 @@ backdrop-filter: blur(10px);
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .resumeButton.dark6 {
@@ -58,6 +61,7 @@ backdrop-filter: blur(10px);
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .language.dark7 {
@@ -75,6 +79,7 @@ backdrop-filter: blur(10px);
 .dark-lightMode.dark8 {
     border: 2px solid #444444;
     background: linear-gradient(180deg, #303030 0%, #0b0b0b 100%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 /* Dark/Light Mode Section Ends */
@@ -83,7 +88,7 @@ backdrop-filter: blur(10px);
 .contactUs {
     color: white;
     border: 1.5px solid #FF0537;
-    background: linear-gradient(180deg, #FF4704 0%, #FE013A 100%);  
+    background: linear-gradient(180deg, #FF4704 0%, #FE013A 100%); 
 }
 
 .contactUs:hover {
@@ -95,7 +100,7 @@ backdrop-filter: blur(10px);
 
 /* Side Navigator Section Starts */
 .sideNavigator.dark9 {
-    background: linear-gradient(180deg, #0a0a0a 0%, #0f0f0f 78.12%);
+    background: #0f0f0f;
     transition: 0.4s;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
@@ -118,6 +123,7 @@ backdrop-filter: blur(10px);
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 
 .twoSection.dark10 {
