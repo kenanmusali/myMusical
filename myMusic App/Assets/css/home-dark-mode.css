@@ -1,12 +1,16 @@
   /* Section-Class (1) Starts here */
   .composerName.dark16 {
       color: #cecece;
-      font-weight: 600 ;
+      font-weight: 600;
   }
 
+  .div-NameYearResponsive.dark17,
   .div-NameYear.dark17 {
-    background: #161616;
+      background: #161616;
+      color: #cecece;
   }
+
+  
 
   .composerImg.dark18 {
       border: 2px solid #161616;
@@ -108,4 +112,5 @@
       color: #888888;
       font-weight: 500;
   }
-    /* Section-Class (4) Ends here */
+
+  /* Section-Class (4) Ends here */

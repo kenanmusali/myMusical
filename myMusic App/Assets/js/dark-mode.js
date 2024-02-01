@@ -29,6 +29,7 @@ document.querySelector('#toggleDark').addEventListener('click', () => {
         'primaryText': 'dark15',
         'composerName': 'dark16',
         'div-NameYear': 'dark17',
+        'div-NameYearResponsive': 'dark17',
         'composerImg': 'dark18',
         'composerYear': 'dark19',
         'div-MusicInfo': 'dark20',
