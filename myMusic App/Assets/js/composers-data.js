@@ -131,16 +131,16 @@ for (let i = 0; i < MusicData["SamuelBarber"].length; i++) {
       </div>
       <div class="div-PlayBarInfo">
         <div class="div-TimePlay">
-          <p>0:00</p>
-          <P>8:00</P>
+          <p id="currentTime">0:00</p>
+          <p id="lastTime">0:00</p>
         </div>
         <div class="div-MusicBar">
-          <p class="musicBar"></p>
+          <input class="musicBar" type="range" min="1" max="100" value="50">
         </div>
         <div class="div-PlayButtons">
-          <img class="rewindIcon" id="rewind" src="./Icons/rewind.svg" alt="Rewind">
-          <img class="playIcon" id="play" src="./Icons/play.svg" alt="Play">
-          <img class="forwardIcon" id="forward" src="./Icons/forward.svg" alt="Forward">
+          <img class="rewindIcon ButtonRewind" id="rewind" src="./Icons/rewind.svg" alt="Rewind">
+          <img class="playIcon ButtonPlay ButtonPause" id="play" src="./Icons/play.svg" alt="Play">
+          <img class="forwardIcon ButtonForward" id="forward" src="./Icons/forward.svg" alt="Forward">
         </div>
       </div>
     </div>
@@ -150,6 +150,11 @@ for (let i = 0; i < MusicData["SamuelBarber"].length; i++) {
 
   `
 }
+
+
+
+
+
 
 
 

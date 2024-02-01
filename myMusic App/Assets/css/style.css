@@ -528,11 +528,10 @@ li {
   height: 10px;
   width: 85%;
   background-color: #cecece;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
+}
+
+input[type="range"] {
+  accent-color: #FF0537;
 }
 
 .div-TimePlay {
