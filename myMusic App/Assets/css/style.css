@@ -167,6 +167,7 @@ body {
   user-select: none;
   padding: 0px 5px;
   transition: 0.7s;
+  display: flex;
 }
 
 /* Contact Menu Section Ends */
@@ -180,7 +181,8 @@ body {
   left: 0;
   width: 286px;
   height: 100%;
-  background: #ececec;
+  background: rgba(231, 231, 231, 0.3);
+  backdrop-filter: blur(10px);
   z-index: 2;
   display: flex;
   align-items: center;
@@ -222,7 +224,9 @@ body {
 .rectangle3,
 .rectangle4,
 .rectangle5 {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.7);
+backdrop-filter: blur(5px);
+
   color: #131313;
   font-style: normal;
   border-radius: 6px;
@@ -239,7 +243,8 @@ body {
 .rectangle6,
 .rectangle7,
 .rectangle8 {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.7);
+backdrop-filter: blur(5px);
   color: #131313;
   font-style: normal;
   border-radius: 6px;

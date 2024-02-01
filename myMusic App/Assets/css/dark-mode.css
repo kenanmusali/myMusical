@@ -102,7 +102,8 @@ body.dark1 {
 
 /* Side Navigator Section Starts */
 .sideNavigator.dark9 {
-    background: #161616;
+    background: rgba(22, 22, 22, 0.3);
+    backdrop-filter: blur(10px);
     transition: 0.4s;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
@@ -138,7 +139,8 @@ body.dark1 {
 }
 
 .rectangle1.dark11 {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: #ffffff;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -148,7 +150,8 @@ body.dark1 {
 }
 
 .rectangle2.dark11 {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: #ffffff;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -158,7 +161,8 @@ body.dark1 {
 }
 
 .rectangle3.dark11 {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: #ffffff;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -168,7 +172,8 @@ body.dark1 {
 }
 
 .rectangle4.dark11 {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: #ffffff;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -178,7 +183,8 @@ body.dark1 {
 }
 
 .rectangle5.dark11 {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: #ffffff;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -188,7 +194,8 @@ body.dark1 {
 }
 
 .rectangle6.dark11 {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: #ffffff;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -198,7 +205,8 @@ body.dark1 {
 }
 
 .rectangle7.dark11 {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: #ffffff;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -208,7 +216,8 @@ body.dark1 {
 }
 
 .rectangle8.dark11 {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: #ffffff;
     transition: 0.4s;
     -webkit-transition: 0.4s;
