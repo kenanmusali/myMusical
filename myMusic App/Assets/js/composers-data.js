@@ -12,6 +12,7 @@ let MusicData = {
       "playMusicName": "Adagio for Strings",
       "playMusicComposer": "Samuel Barber",
       "song01": "./Songs/Samuel Barber - Adagio for Strings.mp3",
+      "song02": "./Songs/Samuel Barber - Agnus Dei.mp3",
     }
   ],
 };
