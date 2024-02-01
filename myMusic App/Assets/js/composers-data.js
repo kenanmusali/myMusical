@@ -35,6 +35,10 @@ for (let i = 0; i < MusicData["SamuelBarber"].length; i++) {
 
   
   <div class="sectionClass2">
+  <div class="div-NameYearResponsive">
+  <h1 class="composerName">${MusicData["SamuelBarber"][i].composerName}</h1>
+  <p class="composerYear">${MusicData["SamuelBarber"][i].composerYear}</p>
+</div>
     <div class="div-MusicInfo">
       <p class="musicName">${MusicData["SamuelBarber"][i].musicName}</p>
       <p class="musicYear">${MusicData["SamuelBarber"][i].musicYear}</p>

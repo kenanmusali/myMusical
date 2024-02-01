@@ -335,11 +335,22 @@ img.composerImg {
   border-radius: 12px;
   border: 2px solid #EBEBEB;
 }
-
 .div-NameYear {
   border-radius: 12px;
   background: #EBEBEB;
   height: 100%;
+  width: 100%;
+  padding: 6%;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.div-NameYearResponsive {
+  border-radius: 12px;
+  background: #EBEBEB;
+  height: 50%;
   width: 100%;
   padding: 6%;
   -webkit-border-radius: 12px;
