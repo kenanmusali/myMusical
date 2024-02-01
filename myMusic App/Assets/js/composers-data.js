@@ -66,7 +66,7 @@ for (let i = 0; i < MusicData["SamuelBarber"].length; i++) {
     <div class="div-CompositionsInfo">
       <p class="compositionsTitle">Compositions</p>
       <ul class="compositionsList">
-        <li>Adagio for Strings</li>
+        <li class="Playing">Adagio for Strings</li>
         <li>Agnus Dei</li>
         <li>Vanessa</li>
         <li>Sure on this shining night</li>
