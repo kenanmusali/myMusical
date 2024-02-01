@@ -284,7 +284,7 @@ body {
 .Homes {
   height: 100%;
   justify-content: center;
-  /* align-items: center; */
+
   margin-top: 5%;
 }
 
@@ -331,8 +331,7 @@ img.composerImg {
   border: 2px solid #EBEBEB;
 }
 
-.div-NameYear,
-.div-NameYearResponsive {
+.div-NameYear {
   border-radius: 12px;
   background: #EBEBEB;
   height: 100%;
