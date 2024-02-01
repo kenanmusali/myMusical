@@ -141,6 +141,7 @@ for (let i = 0; i < MusicData["SamuelBarber"].length; i++) {
         <div class="div-PlayButtons">
           <img class="rewindIcon ButtonRewind" id="rewind" src="./Icons/rewind.svg" alt="Rewind">
           <img class="playIcon ButtonPlay ButtonPause" id="play" src="./Icons/play.svg" alt="Play">
+          <img class="pauseIcon ButtonPlay ButtonPause" id="pause" src="./Icons/pause.svg" alt="Pause">
           <img class="forwardIcon ButtonForward" id="forward" src="./Icons/forward.svg" alt="Forward">
         </div>
       </div>

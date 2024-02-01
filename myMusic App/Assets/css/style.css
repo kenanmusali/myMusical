@@ -556,6 +556,10 @@ input[type="range"] {
 .playIcon {
   margin-left: 10px;
 }
+/* 
+.pauseIcon {
+  display: none;
+} */
 
 .div-PlayButtons {
   display: flex;
